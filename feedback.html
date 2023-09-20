@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Eco Hitch - Feedback</title>
+</head>
+<body>
+<center>
+    <header>
+        <img src="logo.png" alt="Eco Hitch Logo" class="logo">
+        <button onclick="back();" id="back-button" class="back-button">
+            <i class="fas fa-arrow-left"></i> Back
+        </button>
+    </header>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <form id="feedbackForm">
+            <div class="form-group">
+                <label for="errorPage">Which page?</label>
+                <br>
+                <input type="text" id="errorPage" name="errorPage" required>
+                <br>
+            </div>
+            <div class="form-group">
+                <label for="issueDescription">What is your feedback?</label>
+                <br>
+                <textarea id="issueDescription" name="issueDescription" rows="4" required></textarea>
+            </div>
+            <button id="submit" type="submit">Submit Feedback</button>
+        </form>
+    </div>
+</center>
+<script src="feedback.js"></script>
+
+</body>
+</html>

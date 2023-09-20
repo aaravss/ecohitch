@@ -1,0 +1,92 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    height: 80%;
+}
+.form-group {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+label {
+    display: block;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 20px;
+}
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    width: 1000px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize:both;
+    height: 300px;
+}
+
+#errorPage{
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: rgba(124, 124, 124, 0.456);
+    height: 20px;
+    width: 250px;
+}
+
+#submit{
+    background-color: #6d9dc5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button {
+    background-color: #6d9dc5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float:left;
+    top:0;
+}
+
+header {
+    background-color: #c7efcf;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#submit:hover {
+    background-color: #6cb2eb; /* Lighter red background color on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.back-button:hover{
+    background-color: #6cb2eb; /* Lighter red background color on hover */
+    ; /* Lighter red background color on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+
+
+
+
+ 

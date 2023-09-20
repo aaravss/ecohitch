@@ -1,0 +1,147 @@
+/* Reset some default styles */
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#fffdfa;
+}
+
+header {
+    background-color: #c7efcf;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    height: 600px; /* Adjust the map height as needed */
+    background-color: #ddd; /* Placeholder for the map */
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+
+
+/* Center the navigation buttons */
+#prev-driver,
+#next-driver,
+#prev-transport,
+#next-transport,
+#prev-accessible-rides,
+#next-accessible-rides {
+    background-color: transparent; /* Transparent background */
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add box-shadow transition */
+    font-size: 24px;
+    padding: 0; /* Remove padding */
+    background-color: rgba(0, 0, 0, 0.15); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#prev-driver:hover,
+#next-driver:hover,
+#prev-transport:hover,
+#next-transport:hover,
+#prev-accessible-rides:hover,
+#next-accessible-rides:hover{
+    transform: scale(1.3);
+} 
+
+/* Add spacing between sections */
+section {
+    margin-bottom: 40px;
+}
+
+/* Style for the logout button */
+.logout-button {
+    background-color: #f70808; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 16px;
+    align-items: center;
+    float: left;
+    top:0;
+    margin-left: 10px;
+}
+
+/* Style for the logout button on hover */
+.logout-button:hover {
+    background-color: #ff3333; /* Lighter red background color on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Style for the icon inside the button */
+.logout-button i {
+    margin-right: 5px; /* Add a small space between the icon and text */
+}
+
+.feedback-button {
+    margin-right: 5px; /* Add a small space between the icon and text */
+}
+
+.feedback-button {
+    background-color: #5f71db; /* Red background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    float: right;
+    top:0;
+    margin-left: 10px;
+}
+
+.feedback-button:hover {
+    background-color: #5f71db; /* Lighter red background color on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.items{
+width: 200px;
+height: 200px;
+padding: 10px;
+background-color: #346220;
+border-radius: 15px;
+color: white;
+margin: 10px;
+font-size: 28px;
+}
+
+.pfp{
+    border-radius: 1000px;
+width: 50px;
+height: auto;
+bottom: 0;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js" defer></script>
+    <title>Eco Hitch - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <center>
+    <header>
+        <img src="logo.png" alt="Eco Hitch Logo" class="logo">
+        <button id="logout-button" class="logout-button">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </button>
+        <button id="feedback" class="feedback-button">
+            <i class="fas fa-info-circle"></i>
+         Feedback
+        </button>
+    </header>
+    <main>
+        <div id="map"></div>
+
+        <section class="drivers-carousel">
+            <h2>Our Drivers</h2>
+            <button id="prev-driver"> <i class="fas fa-arrow-left"></i></button>
+            <span id="driver1" class="items">Sarah Johnson - Tesla Model 3 ⚡<br><img class="pfp" src="pfp.png"></span>
+
+<span id="driver2" class="items">Carlos Rodriguez - Toyota Prius Hybrid ⚡<br><img class="pfp" src="pfp.png"></span>
+
+<span id="driver3" class="items">Emily Patel - Nissan Leaf ⚡<br><img class="pfp" src="pfp.png"></span>
+
+<span id="driver4" class="items">David Smith - BMW i3 ⚡<br><img class="pfp" src="pfp.png"></span>
+
+<span id="driver5" class="items">Maria Gonzalez - Chevrolet Bolt ⚡<br><img class="pfp" src="pfp.png"></span>
+
+<span id="driver6" class="items">Ahmed Khan - Hyundai Ioniq Hybrid ⚡<br><img class="pfp" src="pfp.png"></span>
+            <button id="next-driver"><i class="fas fa-arrow-right"></i></button>
+        </section>
+
+        <section class="public-transport-carousel">
+            <h2>Public Transportation</h2>
+            <div class="carousel" id="transport-carousel">
+                <!-- Public transportation cards will be dynamically added here -->
+            </div>
+            <button id="prev-transport"> <i class="fas fa-arrow-left"></i></button>
+            <button id="next-transport"><i class="fas fa-arrow-right"></i></button>
+        </section>
+
+        <section class="accessible-rides-carousel">
+            <h2>Accessible Rides</h2>
+            <div class="carousel" id="accessible-rides-carousel">
+                <!-- Accessible rides cards will be dynamically added here -->
+            </div>
+            <button id="prev-accessible-rides"> <i class="fas fa-arrow-left"></i></button>
+            <button id="next-accessible-rides"><i class="fas fa-arrow-right"></i></button>
+        </section>
+
+    </main>
+</center>
+</body>
+<script src="map.js"></script>
+</html>
